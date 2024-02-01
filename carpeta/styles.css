@@ -64,30 +64,7 @@ header {
     margin: 5px;
 }
 
-/* cambiar imagen por texto, pero no me funciona
-#zona_privada{
-    display:inline-block;
-    position:relative;
-}
 
-#zona_privada > div{
-    position:absolute;
-  top:0;
-  left:0;
-  z-index:-1;
-  padding:10px;
-  margin:0;
-}
-
-#private:hover{
-    opacity: 0.07;
-    -webkit-transition: opacity 500ms;
-    -moz-transition: opacity 500ms;
-    -o-transition: opacity 500ms;
-    -ms-transition: opacity 500ms;
-    transition: opacity 500ms;    
-}
-*/
 
 /* Estilos de navegación */
 
@@ -348,7 +325,7 @@ footer {
     transition: opacity 500ms;
 }
 
-/*breadcrumbs*/
+
 .migas > li{
     display: inline;
 }
@@ -357,7 +334,6 @@ footer {
     padding: 4px;
     content: "/";
 }
-
 
 .hamburguesa {
     display: none;
@@ -496,7 +472,6 @@ footer {
         border-right: none;
     }
 
-
     .navegacion{
         display: none;
     }
@@ -506,6 +481,7 @@ footer {
     }
 
 }
+
 
 
 @media only screen and (min-width: 767px) {

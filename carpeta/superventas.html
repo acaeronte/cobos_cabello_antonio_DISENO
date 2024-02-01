@@ -4,14 +4,17 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="../style/styles.css">
+  <link rel="stylesheet" href="./styles.css">
   <title>Superventas</title>
 </head>
 
 <body>
   <!-- zona de identificacion -->
 <header>
-  <img src="../img/logotipo.jpeg" alt="Logotipo" class="logo"></div>
+  <a href="../index.html">
+    <img src="../img/logotipo.jpeg" alt="Logotipo" class="logo"></div>
+  </a>
+  
   <div class="header-icons">
     <img class="icons" id="private" src="../img/private.png" alt="Acceso zona privada">
     <img class="icons" src="../img/cart.png" alt="Cesta de la compra">
@@ -22,14 +25,28 @@
 </header>
 <!-------zona de navegacion--------------------------------------------------------------------------------->
 <nav>
-  <ul>
-    <li><a href="./carpeta/superventas.html">Opción 1</a></li>
-    <li><a href="#">Opción 2</a></li>
-    <li><a href="#">Opción 3</a></li>
+  <ul class="navegacion">
+    <li tabindex="1" accesskey="1"><a href="https://iestrassierra.com/">Camisetas</a></li>
+    <li tabindex="2" accesskey="2"><a href="https://iestrassierra.com/">Zapatillas</a></li>
+    <li tabindex="3" accesskey="3"><a href="https://iestrassierra.com/">Pelotas</a></li>
+    <li tabindex="4" accesskey="4">Palas</li>
   </ul>
+  <div class="hamburguesa">
+    <input type="checkbox" id="menu">
+        <label for="menu"> ☰ </label>
+        <ul>
+          <li><a href="https://iestrassierra.com/">Camisetas</a></li>
+          <li><a href="https://iestrassierra.com/">Zapatillas</a></li>
+          <li><a href="https://iestrassierra.com/">Pelotas</a></li>
+          <li>Palas</li>
+        </ul>
+  </div>
 </nav>
 <!-------zona de contenido--------------------------------------------------------------------------------->
-
+<ul class="migas">
+  <li><a href="../index.html">Inicio</a></li>
+  <li>Superventas</li>
+</ul>
 
 <!-----pie de pagina----------------------------------------------------------------------------------->
 <footer>
