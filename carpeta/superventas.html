@@ -10,86 +10,202 @@
 
 <body>
   <!-- zona de identificacion -->
-<header>
-  <a href="../index.html">
-    <img src="../img/logotipo.jpeg" alt="Logotipo" class="logo"></div>
-  </a>
-  
-  <div class="header-icons">
-    <img class="icons" id="private" src="../img/private.png" alt="Acceso zona privada">
-    <img class="icons" src="../img/cart.png" alt="Cesta de la compra">
-    <img class="icons" src="../img/help.png" alt="Ayuda">
-    <img class="icons" src="../img/accesibility.png" alt="Accesibilidad">
-  </div>
-  <h3 class="nombreEmpresa">La catedral del padel</h3>
-</header>
-<!-------zona de navegacion--------------------------------------------------------------------------------->
-<nav>
-  <ul class="navegacion">
-    <li tabindex="1" accesskey="1"><a href="https://iestrassierra.com/">Camisetas</a></li>
-    <li tabindex="2" accesskey="2"><a href="https://iestrassierra.com/">Zapatillas</a></li>
-    <li tabindex="3" accesskey="3"><a href="https://iestrassierra.com/">Pelotas</a></li>
-    <li tabindex="4" accesskey="4">Palas</li>
-  </ul>
+  <header>
+    <a href="../index.html">
+      <img src="../img/logotipo.jpeg" alt="Logotipo" class="logo"></div>
+    </a>
+
+    <div class="header-icons">
+      <img class="icons" id="private" src="../img/private.png" alt="Acceso zona privada">
+      <img class="icons" src="../img/cart.png" alt="Cesta de la compra">
+      <img class="icons" src="../img/help.png" alt="Ayuda">
+      <img class="icons" src="../img/accesibility.png" alt="Accesibilidad">
+    </div>
+    <h3 class="nombreEmpresa">La catedral del padel</h3>
+  </header>
+  <!-------zona de navegacion--------------------------------------------------------------------------------->
+  <nav>
+    <ul class="navegacion">
+      <li tabindex="1" accesskey="1"><a href="https://iestrassierra.com/">Camisetas</a></li>
+      <li tabindex="2" accesskey="2"><a href="https://iestrassierra.com/">Zapatillas</a></li>
+      <li tabindex="3" accesskey="3"><a href="https://iestrassierra.com/">Pelotas</a></li>
+      <li tabindex="4" accesskey="4">Palas</li>
+    </ul>
   </nav>
+
   <div class="hamburguesa">
     <input type="checkbox" id="menu">
-        <label for="menu"> ☰ </label>
-        <ul>
-          <li><a href="https://iestrassierra.com/">Camisetas</a></li>
-          <li><a href="https://iestrassierra.com/">Zapatillas</a></li>
-          <li><a href="https://iestrassierra.com/">Pelotas</a></li>
-          <li>Palas</li>
-        </ul>
+    <label for="menu"> ☰ </label>
+    <ul>
+      <li><a href="https://iestrassierra.com/">Camisetas</a></li>
+      <li><a href="https://iestrassierra.com/">Zapatillas</a></li>
+      <li><a href="https://iestrassierra.com/">Pelotas</a></li>
+      <li>Palas</li>
+    </ul>
   </div>
 
-<!-------zona de contenido--------------------------------------------------------------------------------->
-<ul class="migas">
-  <li><a href="../index.html">Inicio</a></li>
-  <li>Superventas</li>
-</ul>
-tabla con los productos mas vendidos
-<div class="container-table">
-  <div class="table__header">Nombre</div>
-  <div class="table__header">Precio</div>
-  <div class="table__header">Nº ventas último mes</div>
-  <div class="table__item">Babolat</div>
-  <div class="table__item">100</div>
-  <div class="table__item">30</div>
-  <div class="table__item">Bullpadel</div>
-  <div class="table__item">105</div>
-  <div class="table__item">29</div>
-  <div class="table__item">Head</div>
-  <div class="table__item">115</div>
-  <div class="table__item">27</div>
-  <div class="table__item">Nox</div>
-  <div class="table__item">120</div>
-  <div class="table__item">26</div>
-  <div class="table__item">Adidas</div>
-  <div class="table__item">125</div>
-  <div class="table__item">25</div>
-  <div class="table__item">Dunlop</div>
-  <div class="table__item">130</div>
-  <div class="table__item">24</div>
-  <div class="table__item">Wilson</div>
-  <div class="table__item">135</div>
-  <div class="table__item">23</div>
-  <div class="table__item">Akkeron</div>
-  <div class="table__item">140</div>
-  <div class="table__item">22</div>
-</div>
-<!-----pie de pagina----------------------------------------------------------------------------------->
-<footer>
-  <ul class="footer-links">
-    <li><a href="#">Aviso legal</a></li>
-    <li><a href="#">Política de cookies</a></li>
-    <li><a href="#">Condiciones Generales</a></li>
-    <li><a href="#">Protección de datos</a></li>
+  <!-------zona de contenido--------------------------------------------------------------------------------->
+  <ul class="migas">
+    <li><a href="../index.html">Inicio</a></li>
+    <li>Superventas</li>
   </ul>
-  <div class="copyright">
-    © 2023 La Catedral del padel | Razón Social: Padel Córdoba, S.L.
-  </div>
-</footer>
+
+
+  <section class="mas-vendidos">
+    <article class="mas-vendidos1">
+      <div class="imagen_descripcion">
+        <label for="toggle-oculto1">
+          <img src="../img/pala.png" alt="pala">
+          <p>Pala Babolat Lebron</p>
+        </label>
+        <input type="checkbox" id="toggle-oculto1" class="oculto" />
+        <br></br>
+         <p>Para este 2023 Babolat nos presenta un nuevo modelo edición especial de su jugador insignia: el
+          número 1 del mundo Juan Lebrón.
+          Nos encontramos ante una pala que mantiene el mismo molde diamante que su precedesora, la
+          Babolat Technical Viper 2022. Al igual que su predecesora, esta nueva Babolat incorpora un marco
+          100% de carbono y unos planos de carbono 12K. La principal diferencia se encuentra en la goma,
+          pasando de usar la goma X-EVA de diferentes densidades a una nueva goma Black EVA que dota a la
+          pala de un tacto algo más duro que su precesedora, dando como resultado un tacto de los más
+          duros del mercado.</p>
+          <br>
+        <div>
+          Precio: 385,50€
+        </div>
+        <br>
+        <div>Disponibilidad: NO DISPONIBLE</div>
+       
+      </div>
+    </article>
+
+    <article class="mas-vendidos2">
+      <!-- Subzona 2 -->
+      <div class="container-table2">
+        <div class="header_table2">
+
+          <div class="table__header2">Nombre</div>
+          <div class="table__header2">Precio</div>
+          <div class="table__header2">Unidades vendidas</div>
+        </div>
+        <span>
+
+          <div class="table__item">Bullpadel</div>
+          <div class="table__item">105</div>
+          <div class="table__item">50</div>
+        </span>
+        <span>
+
+          <div class="table__item">Head</div>
+          <div class="table__item">115</div>
+          <div class="table__item">40</div>
+        </span>
+        <span>
+
+          <div class="table__item">Nox</div>
+          <div class="table__item">120</div>
+          <div class="table__item">30</div>
+        </span>
+        <span>
+
+          <div class="table__item">Adidas</div>
+          <div class="table__item">125</div>
+          <div class="table__item">20</div>
+        </span>
+        <span>
+          <div class="table__item">Wilson</div>
+          <div class="table__item">135</div>
+          <div class="table__item">10</div>
+        </span>
+        <span>
+          <div class="table__item"></div>
+          <div class="table__item"></div>
+          <div class="table__item">150</div>
+        </span>
+
+      </div>
+    </article>
+  </section>
+  <section>
+    <h1>Suscribirse a novedades</h1>
+    <article>
+        <form id="formulario" action="" method="get">
+                <fieldset>
+                    <legend>Datos personales del usuario:</legend>
+                    <label for="nombre_usuario">Nombre:</label>
+                    <input type="text" id="nombre_usuario" name="nombre_usuario" maxlength="20" required><br>
+            
+                    <label for="apellidos">Apellidos:</label>
+                    <input type="text" id="apellidos" name="apellidos" maxlength="30" required><br>
+            
+                    <label for="correo">Correo electrónico:</label>
+                    <input type="email" id="correo" name="correo" maxlength="20" required><br>
+            
+                    <label for="telefono">Teléfono de contacto:</label>
+                    <input type="tel" id="telefono" name="telefono" pattern="[6789][0-9]{8}" maxlength="9" required><br>
+            
+                    <label for="fecha-nacimiento">Fecha de nacimiento:</label>
+                    <input type="date" id="fecha-nacimiento" name="fecha-nacimiento" required><br>
+                </fieldset>
+            
+                <fieldset>
+                    <legend>Categorías:</legend>
+                    <label for="hombre">Hombre:</label><br>
+                    <input type="checkbox" id="ropa-hombre" name="ropa-hombre" value="ropa">
+                    <label for="ropa-hombre">Ropa</label><br>
+                    <input type="checkbox" id="calzado-hombre" name="calzado-hombre" value="calzado">
+                    <label for="calzado-hombre">Calzado</label><br>
+                    <input type="checkbox" id="accesorios-hombre" name="accesorios-hombre" value="accesorios">
+                    <label for="accesorios-hombre">Accesorios</label><br>
+                    <input type="checkbox" id="palas-hombre" name="palas-hombre" value="palas">
+                    <label for="palas-hombre">Palas</label><br>
+                    <label for="mujer">Mujer:</label><br>
+                    <input type="checkbox" id="camisetas-mujer" name="camisetas-mujer" value="camisetas">
+                    <label for="camisetas-mujer">Camisetas</label><br>
+                    <input type="checkbox" id="calzado-mujer" name="calzado-mujer" value="calzado">
+                    <label for="calzado-mujer">Calzado</label><br>
+                    <input type="checkbox" id="accesorios-mujer" name="accesorios-mujer" value="accesorios">
+                    <label for="accesorios-mujer">Accesorios</label><br>
+                    <input type="checkbox" id="palas-mujer" name="palas-mujer" value="palas">
+                    <label for="palas-mujer">Palas</label>
+                    <label for="kids">Niñ@s:</label><br> 
+                    <input type="checkbox" id="camisetas-kids" name="camisetas-kids" value="camisetas">
+                    <label for="camisetas-kids">Camisetas</label><br>
+                    <input type="checkbox" id="calzado-kids" name="calzado-kids" value="calzado">
+                    <label for="calzado-kids">Calzado</label><br>
+                    <input type="checkbox" id="accesorios-kids" name="accesorios-kids" value="accesorios">
+                    <label for="accesorios-kids">Accesorios</label><br>
+                    <input type="checkbox" id="palas-kids" name="palas-kids" value="palas">
+                    <label for="palas-kids">Palas</label>
+                </fieldset>
+                <fieldset>
+                    <legend>Condiciones de suscripción:</legend>
+                    <label for="legal"></label>
+                    <textarea readonly>La subcripción conlleva ...</textarea><br>
+            
+                    <label for="acepta">¿Acepta las condiciones de suscripción?</label>
+                    <select id="acepta" name="acepta" required>
+                        <option value="si" selected>Sí</option>
+                        <option value="no">No</option>
+                    </select>
+                </fieldset>
+                <input type="submit" value="Enviar">
+            <button type="reset">Cancelar</button>
+        </form>
+    </article>
+</section>
+
+  <!-----pie de pagina----------------------------------------------------------------------------------->
+  <footer>
+    <ul class="footer-links">
+      <li><a href="#">Aviso legal</a></li>
+      <li><a href="#">Política de cookies</a></li>
+      <li><a href="#">Condiciones Generales</a></li>
+      <li><a href="#">Protección de datos</a></li>
+    </ul>
+    <div class="copyright">
+      © 2023 La Catedral del padel | Razón Social: Padel Córdoba, S.L.
+    </div>
+  </footer>
 </body>
 
 </html>
